@@ -37,5 +37,5 @@ If you have any questions about this repo, open an issue or contact me directly 
 
 ## **Deployment** 
 
-Github: You can find the deployment link at [Katlyn627](https://www.github.com/Katlyn627).
+Github: You can find the repository link at [Katlyn627](https://github.com/Katlyn627/Text-Editor).
 
