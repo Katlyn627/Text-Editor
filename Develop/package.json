@@ -16,7 +16,9 @@
     "license": "ISC",
     "dependencies": {
         "express": "^4.17.1",
-        "if-env": "^1.0.4"
+        "heroku": "^7.59.2",
+        "if-env": "^1.0.4",
+        "serve": "^13.0.2"
     },
     "devDependencies": {
         "concurrently": "^5.2.0",
