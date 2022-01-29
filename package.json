@@ -1,23 +1,23 @@
 {
-  "name": "text-editor",
-  "version": "1.0.0",
-  "description": "This project is a text editor that will run in the browser. The app will be a single-page application that meets the PWA criteria. Additionally, it will feature a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The application will also function offline.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Katlyn627/Text-Editor.git"
-  },
-  "author": "Katlyn Boches",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Katlyn627/Text-Editor/issues"
-  },
-  "homepage": "https://github.com/Katlyn627/Text-Editor#readme",
-  "dependencies": {
-    "concurrently": "^7.0.0",
-    "nodemon": "^2.0.15"
-  }
+    "name": "text-editor",
+    "version": "1.0.0",
+    "description": "This project is a text editor that will run in the browser. The app will be a single-page application that meets the PWA criteria. Additionally, it will feature a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The application will also function offline.",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Katlyn627/Text-Editor.git"
+    },
+    "author": "Katlyn Boches",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Katlyn627/Text-Editor/issues"
+    },
+    "homepage": "https://github.com/Katlyn627/Text-Editor#readme",
+    "dependencies": {
+        "concurrently": "^7.0.0",
+        "nodemon": "^2.0.15"
+    }
 }
