@@ -40,6 +40,6 @@ If you have any questions about this repo, open an issue or contact me directly 
 
 ## **Deployment** 
 
-Heroku: You can find the deployment link at [Heroku]()
+Heroku: You can find the deployment link at [Heroku](https://text-editor2022.herokuapp.com/)
 Github: You can find the repository link at [Katlyn627](https://github.com/Katlyn627/Text-Editor).
-Google Drive: You can find the video walkthough link at [GoogleDrive]()
+Google Drive: You can find the video walkthough link at [GoogleDrive](https://drive.google.com/drive/folders/1-QwQthm1OEk9CL5Kz46OiyKirMEmpvV0?usp=sharing)
