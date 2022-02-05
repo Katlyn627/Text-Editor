@@ -1,25 +1,27 @@
 {
-    "name": "text-editor",
+    "name": "JATE",
     "version": "1.0.0",
-    "description": "This project is a text editor that will run in the browser. The app will be a single-page application that meets the PWA criteria. Additionally, it will feature a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The application will also function offline.",
-    "main": "index.js",
+    "description": "",
+    "main": "server.js",
     "scripts": {
-        "start": "cd ./Develop && npm run start"
+        "start:dev": "concurrently \"cd server && npm run server\" \"cd client && npm run dev\"",
+        "start": "npm run build && cd server && node server.js",
+        "server": "cd server nodemon server.js --ignore client",
+        "build": "cd client && npm run build",
+        "install": "cd client && npm install",
+        "client": "cd client && npm start"
     },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/Katlyn627/Text-Editor.git"
-    },
-    "author": "Katlyn Boches",
+    "keywords": [],
+    "author": "",
     "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/Katlyn627/Text-Editor/issues"
-    },
-    "homepage": "https://github.com/Katlyn627/Text-Editor#readme",
     "dependencies": {
-        "concurrently": "^7.0.0",
+        "concurrently": "^5.2.0",
+        "express": "^4.17.1",
+        "heroku": "^7.59.2",
         "html-webpack-plugin": "^5.5.0",
-        "nodemon": "^2.0.15",
+        "if-env": "^1.0.4",
+        "nodemon": "^2.0.4",
+        "serve": "^13.0.2",
         "webpack": "^5.68.0",
         "webpack-cli": "^4.9.2",
         "webpack-pwa-manifest": "^4.3.0",
