@@ -25,6 +25,7 @@
   },
   "dependencies": {
     "code-mirror-themes": "^1.0.0",
+    "concurrently": "^7.0.0",
     "idb": "^6.1.2"
   }
 }
